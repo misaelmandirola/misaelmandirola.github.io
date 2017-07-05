@@ -1,0 +1,43 @@
+html {
+    background: url(img/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #66999;
+}
+h1 {
+    font-size: 9vw;
+    color: #ECF0F1;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+p {
+    font-size: 3vmin;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+a{
+	text-decoration: none;
+	color: #3498DB;
+}
+a:hover {
+    color: #6DB3DB;
+}
+
+.centrar{
+	position: absolute;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	width:99%;
+}
+@media only screen and (max-width: 500px) {
+.centrar{
+	width:95%;
+}
+h1 {
+    font-size: 25vw;
+}
+p {
+    font-size: 8vmin;
+}
+}
