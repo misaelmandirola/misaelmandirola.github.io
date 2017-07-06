@@ -1,18 +1,23 @@
-html {
-    background: url(img/background.jpg);
-    background-position: center center;
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("img/background.jpg");
+    height: 100%; 
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
-    background-color: #66999;
 }
 h1 {
-    font-size: 9vw;
+	font-family: 'Cabin', sans-serif;
+    font-size: 20vw;
     color: #ECF0F1;
     text-shadow: black 0.1em 0.1em 0.2em
 }
 p {
-    font-size: 3vmin;
+    font-size: 7vmin;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em
 }
@@ -29,15 +34,15 @@ a:hover {
 	text-align: center;
 	font-family: 'Roboto Condensed', sans-serif;
 	width:99%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
-@media only screen and (max-width: 500px) {
-.centrar{
-	width:95%;
-}
+@media (min-width: 768px) {
 h1 {
-    font-size: 25vw;
+    font-size: 9vw;
 }
 p {
-    font-size: 8vmin;
-}
+    font-size: 3vmin;
 }
