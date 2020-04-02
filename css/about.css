@@ -21,7 +21,7 @@ h1 {
     position: absolute;
     text-align: right;
     left: 0;
-    line-height: 10vw;
+    line-height: 11vw;
     padding-top: 7vw;
     font-size: 15vw;
     text-shadow: 0.3vw 0.3vw #805d00
@@ -56,13 +56,15 @@ li ul{
     font-size: 2vw;
     line-height: 3vw;
     text-decoration: none;
-    border: 0.1vw solid #fff;
-    padding: 2px 5.3vw 2px 0.5vw
+    padding: 0px 1vw 2px 3vw	
 } 
 #returnMenu{
 	position: absolute;
 	left:4px;
-	top:4px;
+	top:7px;
+    background-image: url(../images/back.png);
+    background-repeat: no-repeat;
+    background-size: 3vw
 }
 
 #linkedin {
